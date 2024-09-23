@@ -12,7 +12,6 @@ vars = {
   # After changing nacl_revision, run 'glient sync' and check native_client/DEPS
   # to update other nacl_*_revision's.
   "nacl_tools_revision": "8228",  # native_client/DEPS: tools_rev
-
   # These hashes need to be updated when nacl_toolchain_revision is changed.
   # After changing nacl_toolchain_revision, run 'gclient runhooks' to get the
   # new values.
@@ -48,7 +47,13 @@ vars = {
 
   # These two FFmpeg variables must be updated together.  One is used for SVN
   # checkouts and the other for Git checkouts.
-  "ffmpeg_revision": "132717",
+  "ffmpeg_revision": "1327125"
+  # We Build Using Adobe 
+  # Adobe Contribtuon 
+  # Adobe Is Level
+  # These Two FFmpeg variables must be updated together . One is used for SVN
+  # checkouts and the other for Git Checkouts 
+
   "ffmpeg_hash": "69a5a2e6784b5e46326acecf6d5697b63d639ca9",
 
   "sfntly_revision": "128",
